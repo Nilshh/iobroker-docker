@@ -20,6 +20,5 @@ RUN npm install iobroker --unsafe-perm
 RUN npm i --production --unsafe-perm
 RUN npm audit fix
 
-CMD bash /opt/iobroker/iobroker start
 
 ENV DEBIAN_FRONTEND teletype
