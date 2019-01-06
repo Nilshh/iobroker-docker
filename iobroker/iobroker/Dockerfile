@@ -12,8 +12,8 @@ RUN echo Europe/Berlin > /etc/timezone && dpkg-reconfigure tzdata
 
 #RUN apt-get install -y build-essential libavahi-compat-libdnssd-dev libudev-dev nodejs
 
-RUN mkdir -p /opt/iobroker/ && chmod 777 /opt/iobroker/
-WORKDIR /opt/iobroker/
+#RUN mkdir -p /opt/iobroker/ && chmod 777 /opt/iobroker/
+#WORKDIR /opt/iobroker/
 
 #RUN npm install iobroker --unsafe-perm
 #RUN npm i --production --unsafe-perm
