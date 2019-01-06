@@ -10,10 +10,7 @@ services:
             - "8010:8081"
         build: iobroker
         networks:
-            - iobroker-network
-        depends_on:
-            - "mysql"
-            
+            - iobroker-network            
 networks:
     iobroker-network:
         driver: bridge
