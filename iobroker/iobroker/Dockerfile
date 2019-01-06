@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:jessie
 
 MAINTAINER Nils Radde <https://radde.net>
 
