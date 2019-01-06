@@ -9,6 +9,8 @@ services:
         ports:
             - "8010:8081"
         build: iobroker
+        volumes:
+            - ./iobroker/opt/:/opt/iobroker/
         networks:
             - iobroker-network
         depends_on:
