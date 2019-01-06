@@ -10,7 +10,7 @@ services:
             - "8010:8081"
         build: iobroker
         volumes:
-            - ./iobroker/opt/:/opt/iobroker/
+            - /opt/docker/iobroker/iobroker/opt:/opt/iobroker/
         networks:
             - iobroker-network            
 networks:
